@@ -3,7 +3,7 @@ import { useState } from 'react'
 import './App.css'
 import { TableComponent } from './components/table/TableComponent'
 import { InputComponent } from './components/Input/InputComponent';
-import { ButtonComponent } from './components/button/buttonComponent';
+// import { ButtonComponent } from './components/button/buttonComponent';
 
 function App() {
 const[user,Setuser]=useState([
@@ -16,7 +16,7 @@ const[user,Setuser]=useState([
     <>
      <h1 className='text-cyan-400 font-bold text-center'>please fill your information</h1>
      <TableComponent/>
-     <ButtonComponent Onclick=""/>
+     {/* <ButtonComponent Onclick=""/> */}
      <p className='text-center mt-6 mb-7'>User Information</p>
       <InputComponent userInfo={user} />
     </>

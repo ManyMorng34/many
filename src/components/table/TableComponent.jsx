@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 export const TableComponent = () => {
-  // for store value of user Input
+  // for store value of user Inputgit remote add origin https://github.com/ManyMorng34/many.git
   const [usersInput, SetusersInput] = useState({});
   
   function userSubmit(e){
